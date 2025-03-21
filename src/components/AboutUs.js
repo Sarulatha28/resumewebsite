@@ -7,7 +7,7 @@ const AboutUs = () => {
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   // Detect scroll to change card design
-  // Detect scroll position to optionally change card design
+  // Detect scroll position to optionally change card 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 200) {
